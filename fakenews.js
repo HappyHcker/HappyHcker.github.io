@@ -13,11 +13,9 @@ window.addEventListener('load', function() {
         //});
     //});
 
-document.getElementbyClassName("read-more-btn").addEventListener("click", function() 
-{
-    window.location.href = "Article-3.html";
-}
-);
+document.getElementById('article3').addEventListener('click', function() {
+    window.location.href = 'Article-3.html';
+});
 
 
 
