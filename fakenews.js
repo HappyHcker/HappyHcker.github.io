@@ -31,3 +31,8 @@ document.getElementById("playSound").addEventListener("click", function() {
     var sound = document.getElementById("weirdsound");
     sound.play();
 });
+
+document.getElementById("playQuote").addEventListener("click", function() {
+    var sound = document.getElementById("playQuote");
+    sound.play();
+});
