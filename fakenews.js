@@ -4,13 +4,21 @@ window.addEventListener('load', function() {
 });
 
 //Readmore buttons -> function
-const readMoreButtons = document.querySelectorAll('.read-more-btn');
+//const readMoreButtons = document.querySelectorAll('read-more-btn');
 
-readMoreButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        alert("Full article coming soon! Stay tuned.");
-    });
-});
+//readMoreButtons.forEach(button => 
+   // {
+    //button.addEventListener('click', () => {
+        //alert("Full article coming soon! Stay tuned.");
+        //});
+    //});
+
+document.getElementbyClassName("read-more-btn").addEventListener("click", function() 
+{
+    window.location.href = "Article-3.html";
+}
+);
+
 
 
 //Date Function
