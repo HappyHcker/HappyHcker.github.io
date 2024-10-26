@@ -4,20 +4,17 @@ window.addEventListener('load', function() {
 });
 
 //Readmore buttons -> function
-//const readMoreButtons = document.querySelectorAll('read-more-btn');
+const readMoreButtons = document.querySelectorAll('.read-more-btn');
 
-//readMoreButtons.forEach(button => 
-   // {
-    //button.addEventListener('click', () => {
-        //alert("Full article coming soon! Stay tuned.");
-        //});
-    //});
+readMoreButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        alert("Full article coming soon! Stay tuned.");
+    });
+});
 
 document.getElementById('article3').addEventListener('click', function() {
     window.location.href = 'Article-3.html';
 });
-
-
 
 //Date Function
 const dateElement = document.getElementById('date');
@@ -27,12 +24,12 @@ const today = new Date().toLocaleDateString('en-US', options);
 dateElement.textContent = `Today's Date: ${today}`;
 
 //Sound Function
-document.getElementById("playSound").addEventListener("click", function() {
-    var sound = document.getElementById("playSound");
+document.getElementById("playSoundButton").addEventListener("click", function() {
+    var sound = document.getElementById("funnySoundAudio");
     sound.play();
 });
 
 document.getElementById("playQuote").addEventListener("click", function() {
-    var sound = document.getElementById("playQuote");
+    var sound = document.getElementById("quoteAudio");
     sound.play();
 });
