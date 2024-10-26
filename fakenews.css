@@ -65,6 +65,22 @@ footer {
     width: 100%;
 }
 
+button.playQuote {
+    cursor: pointer;
+    background-color: yellow;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+button.playQuote:hover {
+    background-color:lightblue;
+}
+
+
 button.playSound {
     cursor: pointer;
     background-color:chartreuse;
