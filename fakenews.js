@@ -28,7 +28,7 @@ dateElement.textContent = `Today's Date: ${today}`;
 
 //Sound Function
 document.getElementById("playSound").addEventListener("click", function() {
-    var sound = document.getElementById("weirdsound");
+    var sound = document.getElementById("playSound");
     sound.play();
 });
 
